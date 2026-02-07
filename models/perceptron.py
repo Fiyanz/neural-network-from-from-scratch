@@ -1,5 +1,8 @@
 import numpy as np
 
+class Perceptron:
+    pass
+
 def activation(net: float, a: float) -> int:
     if net > a: return 1
     elif net < -a: return -1
